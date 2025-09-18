@@ -1,0 +1,24 @@
+{
+  "name": "minecraft-gemini-bot",
+  "version": "1.0.0",
+  "description": "A powerful Minecraft bot driven by the Gemini AI.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "minecraft",
+    "bot",
+    "mineflayer",
+    "gemini",
+    "ai"
+  ],
+  "author": "m1koli4ik + ai",
+  "license": "MIT",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "dotenv": "^17.2.2",
+    "mineflayer": "^4.33.0",
+    "mineflayer-pathfinder": "^2.4.5"
+  }
+}
